@@ -1,0 +1,28 @@
+@each $b in $buttons {
+  .btn.btn-#{nth($b,1)} {
+    background: #{nth($b,2)};
+    color: #{nth($b,3)};
+
+    &.btn-gradient {
+      background: linear-gradient(to right,#{nth($b,2)},adjust-color(nth($b,2), $hue: -32deg));
+    }
+  }
+}
+
+.btn{
+  font-family: $primary-font;
+  font-size: inherit;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  padding: .75rem 2rem;
+  border-radius: 1.5rem;
+  border: none;
+  background: transparent;
+
+  & + .btn{
+    margin-left: 1rem;
+  }
+}

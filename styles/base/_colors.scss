@@ -1,0 +1,19 @@
+$primary: #00B8A9;
+$secondary: #F6416C;
+
+$success: #000;
+$info: #000;
+$warning: #000;
+$error: #000;
+
+$background: #FFFFFF;
+$text: #333333;
+
+$buttons: (
+  ("primary", $primary, #FFFFFF),
+  ("secondary", $secondary, #FFFFFF),
+  ("success", $success, get-color-for-background($success)),
+  ("info", $info, get-color-for-background($info)),
+  ("warning", $warning, get-color-for-background($warning)),
+  ("error", $error, get-color-for-background($error)),
+)

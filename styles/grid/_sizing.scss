@@ -1,0 +1,16 @@
+[class^=#{$namespace}grid]{
+	padding: $spacing;
+	flex-grow:1;
+}
+
+@for $i from 2 through $grids{
+	.#{$namespace}grow-#{$i}{
+		flex-grow: $i
+	}
+}
+
+@for $i from 0 through $grids{
+	.#{$namespace}shrink-#{$i}{
+		flex-shrink: $i
+	}
+}

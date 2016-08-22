@@ -1,0 +1,31 @@
+.#{$namespace}wrap{
+	flex-wrap: wrap;
+}
+
+.#{$namespace}wrap-reverse{
+	flex-wrap: wrap-reverse;
+}
+
+.#{$namespace}wrap-start{
+	align-content: flex-start;
+}
+
+.#{$namespace}wrap-end{
+	align-content: flex-end;
+}
+
+.#{$namespace}wrap-center{
+	align-content: center;
+}
+
+.#{$namespace}wrap-stretch{
+	align-content: stretch;
+}
+
+.#{$namespace}wrap-between{
+	align-content: space-between;
+}
+
+.#{$namespace}wrap-around{
+	align-content: space-around;
+}

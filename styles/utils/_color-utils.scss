@@ -1,0 +1,7 @@
+@function get-color-for-background($bg) {
+  @if (lightness($bg) > 50) {
+    @return $text; // Lighter backgorund, return dark color
+  } @else {
+    @return #FFFFFF; // Darker background, return light color
+  }
+}

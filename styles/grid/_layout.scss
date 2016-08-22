@@ -1,0 +1,57 @@
+/* Main axis */
+
+.#{$namespace}start{
+	justify-content: flex-start;
+}
+
+.#{$namespace}center{
+	justify-content: center;
+}
+
+.#{$namespace}end{
+	justify-content: flex-end;
+}
+
+.#{$namespace}around{
+	justify-content: space-around;
+}
+
+.#{$namespace}between{
+	justify-content: space-between;
+}
+
+/* Minor axis */
+
+.#{$namespace}top{
+	align-items: flex-start;
+}
+
+.#{$namespace}middle{
+	align-items: center;
+}
+
+.#{$namespace}bottom{
+	align-items: flex-end;
+}
+
+.#{$namespace}stretch{
+	align-items: stretch;
+}
+
+/* Self */
+
+.#{$namespace}self-start{
+	align-self: flex-start;
+}
+
+.#{$namespace}self-end{
+	align-self: flex-end;
+}
+
+.#{$namespace}self-stretch{
+	align-self: stretch;
+}
+
+.#{$namespace}self-center{
+	align-self: center;
+}
